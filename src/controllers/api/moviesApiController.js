@@ -13,7 +13,7 @@ const Actors = db.Actor;
 
 const moviesApiController = {
 
-    add: (req,res) => {
+    create: (req,res) => {
         Movies
         .create(
             {
